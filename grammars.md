@@ -1,5 +1,17 @@
 # This page lists the useful C++ grammars, especially for C++11, C++14, C++17 and C++20.
 
+## Three-way comparison operator "<=>"(since C++20)
+
+A new comparison operator from C++20.
+
+| true       | a<b  | a>b  | a=b  |
+| ---------- | ---- | ---- | ---- |
+| (a<=>b)<0  | 1    |      |      |
+| (a<=>b)>0  |      | 1    |      |
+| (a<=>b)==0 |      |      | 1    |
+
+
+
 ## If Statement with Initializer (since C++17)
 
 Add an initializer to the *if* statement. It allows you to declare arrays and arbitrary many variables in the *if* statement itself, and ensures that they don't leak out of the *if* scope.
