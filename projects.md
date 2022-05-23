@@ -22,6 +22,18 @@ void Visualization::draw_single_line(cv::Mat& img, cv::Point2d start,
 }
 ```
 
+## [Y-Vladimir/SmartDeblur: Restoration of defocused and blurred photos/images (github.com)](https://github.com/Y-Vladimir/SmartDeblur)
+
+  SmartDeblur is a tool for restoring defocused and blurred images written in C++using Qt 4.8.
+
+The algorism is based on several deconvolution techniques(Wiener,Tikhonov etc)
+
+Supported types are:
+
+* Out of Focus blur(with kernel deep tuning)
+* Motion blur
+* Gaussian blur
+
 ## [protocol buffers](https://developers.google.com/protocol-buffers/docs/downloads)
 
 ​	Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data – think XML, but smaller, faster, and simpler. You define how you want your data to be structured once, then you can use special generated source code to easily write and read your structured data to and from a variety of data streams and using a variety of languages.
